@@ -1,9 +1,13 @@
 import React from 'react'
-
+import css from './css/Sidebar.module.css'
 
 function Sidebar() {
     return (
-        <h1>This Works!</h1>
+        <div className={css.sidebar}>
+            <a href='#'>My Photos</a>
+            <a href='#'>My Paintings</a>
+            <a href='#'>My Illustrations</a>
+        </div>
     );
   }
 
