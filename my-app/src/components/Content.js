@@ -16,7 +16,7 @@ export class Content extends Component {
             <h1 key='PostHeading'>My Posts</h1>
         </div>
         <div className={css.SearchResults}>
-            <PostItem />
+            <PostItem posts={savedPosts}/>
         </div>
       </div>
     )

@@ -1,11 +1,9 @@
 import React from 'react'
 import css from './css/Content.module.css'
-import {savedPosts} from '../posts.json'
 
-
-function PostItem() {
+function PostItem(props) {
   return (
-    savedPosts.map(post => {
+    props.posts.map(post => {
         return <div key={post.title} className={css.SearchItem}>
             <h1>{post.title}</h1>
             <p>{post.name}</p>
