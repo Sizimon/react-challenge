@@ -3,7 +3,7 @@ import css from './css/Content.module.css'
 
 function PostItem(props) {
   return (
-    props.posts.map(post => {
+    props.savedPosts.map(post => {
         return <div key={post.title} className={css.SearchItem}>
             <h1>{post.title}</h1>
             <p>{post.name}</p>
