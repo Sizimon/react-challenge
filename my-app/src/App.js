@@ -3,6 +3,7 @@ import css from './App.module.css';
 import NavBarForm from './components/NavBarForm';
 import Sidebar from './components/Sidebar';
 import ContentHooks from './components/ContentHooks';
+import ContentAPI from './components/ContentAPI';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* Add your components here */}
       <NavBarForm />
       <Sidebar />
-      <ContentHooks />
+      {/* <ContentHooks /> */}
+      <ContentAPI />
     </div>
   );
 }

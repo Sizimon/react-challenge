@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import {savedPosts} from '../posts.json'
 import css from './css/Content.module.css'
 import PostItem from './PostItem'
 import Loader from './Loader'
